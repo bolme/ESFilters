@@ -1,0 +1,15 @@
+[INPUT]
+
+{input}
+
+[INSTRUCTIONS]
+
+Create a summary or abstract for the input that is intended to serve as a 
+short preview.  The preview should be at most 50 words long.  It should 
+provide enough context that a reader will understand if the full message is 
+worth reading or if/when actions that need to be taken.  The preview should 
+focus on the main message body and should ignore any header or footer 
+template text.  Output the preview only without any extra additions or 
+embellishment.
+
+[OUTPUT]

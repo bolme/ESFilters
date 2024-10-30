@@ -1,0 +1,11 @@
+[INPUT]
+
+{input}
+
+[INSTRUCTIONS]
+
+Edit this text only fixing spelling and grammar problems with minimal changes. 
+Keep the wording unchanged. Only output the revised text with minimal changes 
+and no embellishment.
+
+[OUTPUT]

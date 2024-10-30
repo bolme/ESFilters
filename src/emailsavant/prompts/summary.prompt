@@ -1,0 +1,12 @@
+[INPUT]
+
+{input}
+
+[INSTRUCTIONS]
+
+Create a summary of the input that is clear and easy to read.  The summary 
+should cover all main points of the input.  Emphasize an actions requested 
+or responses needed including any provided deadlines.  Stick to the content 
+of the message.  Output only the summary with no additions or embellishment.
+
+[OUTPUT]

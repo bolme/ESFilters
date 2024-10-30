@@ -1,0 +1,9 @@
+[INPUT]
+
+{input}
+
+[INSTRUCTIONS]
+
+Summarize the input by converting it to a consize bullet list. The bullets should be organized and will bring the reader up to speed quickly with a focus on clarity that covers all the main points. Only output the revised text with minimal changes and no embellishment.
+
+[OUTPUT]

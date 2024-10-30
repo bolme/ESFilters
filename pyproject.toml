@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ES Filters"
+version = "2024.10.0"
+dependencies = [
+  "ollama",
+]
+
+requires-python = ">=3.11" # to support open-webgui
+authors = [
+  {name = "David Bolme"},
+]
+maintainers = [
+  {name = "David Bolme"}
+]
+description = "An AI assistant for email."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["email", "ai", "summary"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/emailsavant"]
+
+[project.urls]
+Homepage = "https://github.com/bolme/ES Filters"
+Documentation = "https://github.com/bolme/EmailSavant"
+Repository = "https://github.com/bolme/EmailSavant.git"
+"Bug Tracker" = "https://github.com/bolme/EmailSavant/issues"
+
